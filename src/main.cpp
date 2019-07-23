@@ -37,16 +37,14 @@ int main() {
   /**
    * TODO: Initialize the pid variable.
    */
-  // Proportional
+  
+  // P
   // pid.Init(1, 0.0, 0.0);
 
-  // Integral
-  // pid.Init(0.0, 1.0, 0.0);
+  // PD
+  // pid.Init(0.15, 0.00031, 0.0);
 
-  // Derivative
-  // pid.Init(0.0, 0.0, 1.0);
-
-  // PID
+  // PID 
   pid.Init(0.15, 0.00031, 2.5);
 
 
